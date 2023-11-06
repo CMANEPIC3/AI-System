@@ -48,7 +48,7 @@ class Scratch3YourExtension {
 
                     // where this block should be available for code - choose from:
                     //   TargetType.SPRITE - for code in sprites
-                    //   TargetType.STAGE  - for code on the stage / backdrop
+                    //   TargetType.STAGE  - for code on the stage/backdrop
                     // remove one of these if this block doesn't apply to both
                     filter: [ TargetType.SPRITE, TargetType.STAGE ],
 
@@ -61,7 +61,7 @@ class Scratch3YourExtension {
                             // type/shape of the parameter - choose from:
                             //     ArgumentType.ANGLE - numeric value with an angle picker
                             //     ArgumentType.BOOLEAN - true/false value
-                            //     ArgumentType.COLOR - numeric value with a colour picker
+                            //     ArgumentType.COLOR - numeric value with a color picker
                             //     ArgumentType.NUMBER - numeric value
                             //     ArgumentType.STRING - text value
                             //     ArgumentType.NOTE - midi music value with a piano picker
@@ -74,7 +74,7 @@ class Scratch3YourExtension {
                             // type/shape of the parameter - choose from:
                             //     ArgumentType.ANGLE - numeric value with an angle picker
                             //     ArgumentType.BOOLEAN - true/false value
-                            //     ArgumentType.COLOR - numeric value with a colour picker
+                            //     ArgumentType.COLOR - numeric value with a color picker
                             //     ArgumentType.NUMBER - numeric value
                             //     ArgumentType.STRING - text value
                             //     ArgumentType.NOTE - midi music value with a piano picker
@@ -97,4 +97,4 @@ class Scratch3YourExtension {
     }
 }
 
-module.exports = Scratch3YourExtension;
+module.exports = Scratch3Ai;
